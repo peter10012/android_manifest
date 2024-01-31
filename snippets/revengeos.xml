@@ -15,6 +15,9 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
+  <remote  name="mine"
+            fetch="https://github.com/peter10012" />
+
   <!-- Remove projects -->
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/external/guice" />
@@ -53,6 +56,13 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="ros" revision="r11.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ros" />
   <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
+  <!-- <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="mine" revision="eleven" /> -->
+  <project path="device/xiaomi/leo" name="device_xiaomi_leo" remote="mine" revision="r11.0"/>
+
+  <!-- 
+    <project path="device/xiaomi/leo" name="android_device_xiaomi_leo" remote="mine" revision="lineage-18.1"/>
+    <project path="device/xiaomi/msm8994-common" name="android_device_xiaomi_msm8994-common" remote="mine" revision="lineage-18.1" /> 
+  -->
 
   <!-- frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
@@ -91,6 +101,7 @@
   <!-- RevengeOS vendor -->
   <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
+  <project path="vendor/xiaomi/leo" name="android_vendor_xiaomi_leo" remote="mine" revision="mko-mr1" />
   
   <!-- Qualcomm vendor repos -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="ros" />

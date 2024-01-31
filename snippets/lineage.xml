@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Repos of RevengeOS -->
 <manifest>
+  <remote  name="mine"
+            fetch="https://github.com/peter10012" />
   <!-- CAF HALs -->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -114,5 +116,8 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" groups="qcom,pdk-qcom" revision="lineage-18.1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="github" revision="lineage-18.1" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/leo" name="android_kernel_xiaomi_leo" remote="mine" revision="lineage-18.1"/>
 
 </manifest>
