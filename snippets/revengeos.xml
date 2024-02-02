@@ -66,7 +66,9 @@
   -->
 
   <!-- frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="ros" />
+  <!-- <project path="frameworks/av" name="android_frameworks_av" remote="ros" /> -->
+  <!-- <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" revision="lineage-18.1"/> -->
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="github" revision="1540b08640dd983312db0c1f6e1a72e6909a44f6"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="ros" />
   <project path="frameworks/native" name="android_frameworks_native" remote="ros" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ros" />
