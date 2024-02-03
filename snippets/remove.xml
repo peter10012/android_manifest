@@ -99,4 +99,9 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
+
+  <!-- conflict with my device -->
+  <!-- 
+    LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr
+   -->
 </manifest>
