@@ -57,7 +57,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="ros" />
   <project path="device/revengeos/sepolicy" name="android_device_revengeos_sepolicy" remote="ros" />
   <!-- <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="mine" revision="eleven" /> -->
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="mine" revision="r9.0-caf" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="mine" revision="r11.0" />
   <!-- <project path="device/xiaomi/leo" name="device_xiaomi_leo" remote="mine" revision="r11.0"/> -->
 
   <project path="device/xiaomi/leo" name="android_device_xiaomi_leo" remote="mine" revision="lineage-18.1"/>
