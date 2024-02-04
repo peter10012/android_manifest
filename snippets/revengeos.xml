@@ -60,8 +60,8 @@
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="mine" revision="r11.0" />
   <!-- <project path="device/xiaomi/leo" name="device_xiaomi_leo" remote="mine" revision="r11.0"/> -->
 
-  <project path="device/xiaomi/leo" name="android_device_xiaomi_leo" remote="mine" revision="lineage-18.1"/>
-  <project path="device/xiaomi/msm8994-common" name="android_device_xiaomi_msm8994-common" remote="mine" revision="lineage-18.1" /> 
+  <project path="device/xiaomi/leo" name="android_device_xiaomi_leo" remote="mine" revision="r11.0"/>
+  <project path="device/xiaomi/msm8994-common" name="android_device_xiaomi_msm8994-common" remote="mine" revision="r11.0" /> 
   
   <!-- frameworks -->
   <!-- <project path="frameworks/av" name="android_frameworks_av" remote="ros" /> -->
