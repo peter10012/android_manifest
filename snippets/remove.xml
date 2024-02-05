@@ -3,7 +3,7 @@
 <manifest>
 
   <!-- art -->
-  <remove-project name="platform/art" />
+  <!-- <remove-project name="platform/art" /> -->
 
   <!-- build -->
   <remove-project name="platform/bionic" />

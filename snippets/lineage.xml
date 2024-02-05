@@ -33,6 +33,9 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  
+  <!-- Art -->
+  <!-- <project path="art" name="LineageOS/android_art" remote="github" revision="lineage-18.1" /> -->
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="github" revision="lineage-18.1" />
