@@ -122,5 +122,7 @@
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/leo" name="android_kernel_xiaomi_leo" remote="mine" revision="lineage-18.1"/>
+  <!-- <project path="kernel/xiaomi/leo" name="harrynowl/android_kernel_xiaomi_msm8994" remote="github" revision="staging"/> -->
+  <!-- <project path="kernel/xiaomi/leo" name="harrynowl/android_kernel_xiaomi_msm8994" remote="github" revision="libra-n-oss-LA.BF64.1.2.3_rb1.18"/> -->
 
 </manifest>
