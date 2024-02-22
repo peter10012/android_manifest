@@ -100,6 +100,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="lineage-18.1" />
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" remote="github" revision="lineage-18.1" />
   <project path="system/netd" name="LineageOS/android_system_netd" remote="github" revision="lineage-18.1" />
+  <project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-18.1" />
 
   <!-- Tools -->
   <project path="tools/metalava" name="LineageOS/android_tools_metalava" remote="github" revision="lineage-18.1" />
